@@ -43,7 +43,7 @@ function changeWatched (title) {
     for (i = 0; i < allMovies.length; i++) {
         if (allMovies[i].title == title) {
             
-            if (allMovies[i].havewatched == true) {
+            if (allMovies[i].havewatched == "true") {
                 allMovies[i].havewatched = "false";
             } else {
                 allMovies[i].havewatched = "true";
